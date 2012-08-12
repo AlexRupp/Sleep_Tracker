@@ -1,0 +1,82 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ *= require jquery_ui
+*/
+body{
+background-color: #F5F5F5;
+}
+
+div#wrap{
+position:relative;
+top:200px;
+width:900px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+h1{
+font-family: 'Droid Sans', sans-serif;
+}
+h2{
+font-family: 'Droid Sans', sans-serif;
+color: #37ccc0;
+}
+
+table{
+padding-top:10px;
+margin-left:auto;
+margin-right:auto;
+font-family: 'Droid Sans', sans-serif;
+}
+/*
+input#submit{
+ 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    color: #FFF;
+    padding: 5px 50px 5px 50px;
+    border: 1px solid #999;
+ 
+    text-shadow: 0px 1px 1px #666;
+    text-decoration: none;
+ 
+    -moz-box-shadow: 0 1px 3px #111;
+    -webkit-box-shadow: 0 1px 3px #111;
+    box-shadow: 0 1px 3px #111;
+ 
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+ 
+    background: #37ccc0;
+    background-image: linear-gradient(bottom, rgb(106,115,207) 0%, rgb(55,204,192) 71%, rgb(106,114,207) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(106,115,207) 0%, rgb(55,204,192) 71%, rgb(106,114,207) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(106,115,207) 0%, rgb(55,204,192) 71%, rgb(106,114,207) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(106,115,207) 0%, rgb(55,204,192) 71%, rgb(106,114,207) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(106,115,207) 0%, rgb(55,204,192) 71%, rgb(106,114,207) 0%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(106,115,207)),
+		color-stop(0.71, rgb(55,204,192)),
+		color-stop(0, rgb(106,114,207))
+	);
+}
+
+input#submit:hover{
+    border: 1px solid #FFF;
+}
+ */
+ 

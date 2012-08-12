@@ -1,0 +1,23 @@
+<div id=wrap>
+<h1>Are you going to bed?</h1>
+<h2><%= Time.now %></h2>
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @bed_times.each do |bed_time| %>
+  <tr>
+    <td><%= bed_time.created_at.in_time_zone("Eastern Time (US & Canada)").strftime("%Y.%m.%d %H:%M") %></td>
+    <td><%= link_to 'Destroy', bed_time, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+<%= form_for :bed_time do |f| %>
+<%= f.button :class => "ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" %>
+<% end %>
+</div>
+<br />
+
